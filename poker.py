@@ -4,7 +4,6 @@ import numpy as np
 
 SUITS = ['h', 'd', 's', 'c']
 NUMBERS = ['2', '3', '4', '5', '6', '7', '8', '9', '10', 'J', 'Q', 'K', 'A']
-# CARDS = [(SUIT, NUMBER) for SUIT in SUITS for NUMBER in NUMBERS]
 
 CARDS = []
 for SUIT in SUITS:
@@ -169,8 +168,6 @@ def main():
             else:
                 break
 
-
-# print(np.random.randint(1, 14, size=5))
 
 if __name__ == '__main__':
     main()
